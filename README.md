@@ -1,4 +1,4 @@
-# qBittorrent daemon(Web UI) running with Open VPN, IP tables included. Only your torrents will be hidden behind the VPN and you're free to browse the web at full speeds on your device.
+# qBittorrent daemon(Web UI) running with Open VPN featuring HEALTHCHECK and configurable VPN locations!
 
 **This originally came from [MarkusMcNugen/Docker-qBittorrentvpn](https://github.com/MarkusMcNugen/docker-qBittorrentvpn) 
 It needed an update so I added more environment variables to make it more configurable.**
