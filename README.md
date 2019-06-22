@@ -1,3 +1,4 @@
+[preview]: https://raw.githubusercontent.com/MarkusMcNugen/docker-templates/master/qbittorrentvpn/Screenshot.png "qBittorrent Preview"
 # qBittorrent daemon(Web UI) running with Open VPN featuring HEALTHCHECK and configurable VPN locations!
 
 **This originally came from [MarkusMcNugen/Docker-qBittorrentvpn](https://github.com/MarkusMcNugen/docker-qBittorrentvpn) 
