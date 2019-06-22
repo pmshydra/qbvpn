@@ -25,7 +25,16 @@ docker run --privileged  -d \
               pmshydra/qbvpn
 ```
 ### On first run it'll generate the config folder to where you configured it, place inside a .ovpn(or multiple) but make sure that the name is something like Country_Location.ovpn .
+
 > Make sure if you don't enter the Username or Password to the VPN that you include it inside a credentials.conf using auth-user-pass credentials.conf along with your .ovpn file.
+
+## PUID/PGID
+User ID (PUID) and Group ID (PGID) can be found by issuing the following command for the user you want to run the container as:
+
+```
+id <username>
+```
+
 # Variables, Volumes, and Ports
 ## Environment Variables
 | Variable | Required | Function | Example |
